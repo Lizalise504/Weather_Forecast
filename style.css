@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: auto;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5em;
+    color: #fff;
+    background-color: rgba(133, 184, 197, 0.959);
+}
+.nav-title{
+    font-size: 2em;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.9em;
+    margin: 0.7em;
+    transition: 0.4s;
+}
+.nav-links a:hover{
+    font-size: 2.3em;
+    color: cornsilk;
+    transition: 0.4s;
+}
+
+main{
+    width: 70em;
+    padding-right: 1em;
+    margin: 0 auto;
+    height: auto;
+    border-bottom: 2px solid #080808;
+}
+
+.top-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #080808;
+}
+.top-part h2{
+    flex: 2;
+    padding: 0.5em 0;
+    font-size: 2em;
+}
+.top-part label{
+    flex: 1;
+    text-align: right;
+    padding: 0.5em 0;
+    font-size: 1.5em;
+}
+label select{
+    font-size: 1em;
+    padding: 0.2em;
+}
+
+/* middle section with cards */
+
+.middle-part{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding: 1em;
+    margin: 1em 0;
+    width: auto;
+    height: 20em;
+    text-align: center;
+    background-color: azure;
+    border-radius: 1em;
+}
+.card h2{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.card img{
+    width: 10em;
+    height: 10em;
+    margin-bottom: 0.5em;
+    border-radius: 50%;
+}
+.card p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.degrees{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+}
+.num1{
+    flex: 1;
+    color: red;
+    align-items: flex-start;
+    margin-right: 1em;
+}
+.num2{
+    flex: 1;
+    color: blue;
+    margin-left: 0.5em;
+}
+
+/* bottom section */
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: azure;
+    border: 3px solid #080808;
+    border-radius: 8px;
+    position: relative;
+    bottom: 0.5em;
+}
+.bottom img{
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+}
+
+.cookie-info h3{
+    font-size: 1.5em;
+}
+.btn{
+    margin: 1em;
+    width: 12em;
+    height: 2em;
+    color: rgb(67, 219, 67);
+    background-color: rgb(79, 79, 238);
+    border: none;
+    box-shadow: 5px 5px 5px 4px #000;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: #fff;
+    background-color: rgb(8, 65, 84);
+    width: 13em;
+    height: 2.5em;
+    transition: 0.5s;
+    cursor: pointer;
+}

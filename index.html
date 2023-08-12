@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-title">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="city(this) ">Burbank</a>
+            <a href="#" onclick="city(this) ">Chicago</a>
+            <a href="#" onclick="city(this) ">Dallas</a>
+        </div>
+    </nav>
+    <main>
+        <div class="top-part">
+            <h2>San Jose</h2>
+            <label for="temperature">show temperature in
+                <select name="temperature" id="temperature" onchange="change()">
+                    <option value="Celcius" class="celcius">°C</option>
+                    <option value="Fahrenheit" class="fahrenheit">°F</option>
+                </select>
+            </label>
+        </div>
+        <div class="middle-part">
+            <div class="card">
+                <h2>Today</h2>
+                <img src="some_rain.png" alt="a bit of rain">
+                <p>some rain</p>
+                <div class="degrees">
+                    <span class="num1">24°</span>
+                    <span class="num2">18°</span>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="sunny day">
+                <p>some sun</p>
+                <div class="degrees">
+                    <span class="num1">27°</span>
+                    <span class="num2">19°</span>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="a bit of clouds">
+                <p>some clouds</p>
+                <div class="degrees">
+                    <span class="num1">21°</span>
+                    <span class="num2">16°</span>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt="sunny day">
+                <p>some rain</p>
+                <div class="degrees">
+                    <span class="num1">26°</span>
+                    <span class="num2">21°</span>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="cookie.png" alt="cookie pic">
+            <div class="cookie-info">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, 
+                    to provide social media features and to analyze our traffic. <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button class="btn" onclick="disappear()">I accept</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
